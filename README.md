@@ -95,13 +95,11 @@ It can classify Marked Graph, State Machine, Free Choice Net and Workflow Net.
 
 In concurrent computing, deadlock is any situation in which no member of some group of entities can proceed because each waits for another member, including itself, to take action, such as sending a message or, more commonly, releasing a lock.
 
-https://user-images.githubusercontent.com/48000537/205719635-f8de0eb3-828f-470d-b335-c7676eb195fe.mp4
 
 ## Real-world: Repository producer and consumer
 
 Let's assume that there is a repository, a producer line and a consumer line. The producer needs the repo lock and some space to produce a product and the consumer needs the repo lock and a product to consume a product. I use a PetriNet model to see this process.
 
-https://user-images.githubusercontent.com/48000537/205823842-01b2556f-0a11-4578-957a-41617c00dd47.mp4
 
 This example can be abstracted into a producer/consumer problem.
 
